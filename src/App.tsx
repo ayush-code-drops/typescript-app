@@ -8,7 +8,10 @@ import Todo from './components/Todo/Todo';
 function App() {
   return (
     <div className="App">
+      <h1>Counter</h1>
       <Counter />
+      <hr />
+      <h1>To Do App</h1>
       <Todo/>
     </div>
   );

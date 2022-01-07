@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import NestedModal from './Modal'
 import TodoInput from './TodoInput'
 interface Todos{
     title: string;
@@ -26,6 +27,8 @@ export default function Todo() {
                     </div>
                 )
             })}
+            <hr />
+            <NestedModal/>
         </div>
     )
 }
